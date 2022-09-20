@@ -2,7 +2,7 @@ name: Virtualbox
 on:
   push:
     branches:
-    - master
+    - main
     paths:
     - .github/workflows/virtualbox.yml
     - actions/packer-virtualbox/Dockerfile
